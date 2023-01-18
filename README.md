@@ -29,3 +29,11 @@ This project create 3 microservices.
   # Repo's for reference
   - https://github.com/nathanforester/DockerComposeTutorial.git
   - https://github.com/nathanforester/API2.git
+
+# Useful git commands 
+ - git config --global user.name "vishal221"
+ - git config --global user.email "vishal.saraya@gmail.com"
+ - git config --global user.password  <**>
+ - git init
+ - git remote add origin https://github.com/vishal221/ansible-roles-docker-birthflask.git
+ - git push -u origin main
