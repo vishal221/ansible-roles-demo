@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  main:
+    image: nathanforester321/main:latest
+    build: ./main
+    ports:
+        - target: 5000
+          published: 5000
+    deploy:
+      replicas: 1
+  converter:
+    image: 
+    build: 
+    ports:
+        - target: 5001
+          published: 
+    deploy:
+      replicas: 1
+  prime:
+    <complete code here>
