@@ -30,6 +30,9 @@ This project create 3 microservices.
   - https://github.com/nathanforester/DockerComposeTutorial.git
   - https://github.com/nathanforester/API2.git
 
+# .md format syntax resource
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 # Useful git commands 
  - git config --global user.name "vishal221"
  - git config --global user.email "vishal.saraya@gmail.com"
