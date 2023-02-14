@@ -18,10 +18,10 @@ This project create 3 microservices.
   - docker rmi $(docker images -aq)
   - docker system prune -a -f
 
-  - cker container inspect 00fec897e560
+  - docker container inspect 00fec897e560
 
   -  usermod -aG docker $USER
-  - do chown $USER /var/run/docker.sock
+  - sudo chown $USER /var/run/docker.sock
 
   # To enforce the build again
   - docker-compose up --build -d
@@ -61,4 +61,8 @@ sudo chmod a+r /etc/apt/keyrings/docker.gpg
 sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+
+sudo chown $USER /var/run/docker.sock
+
+sudo apt install docker-compose -y
 ```
